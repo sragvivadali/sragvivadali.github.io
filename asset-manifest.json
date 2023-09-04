@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.35da2933.css",
-    "main.js": "/static/js/main.deea1e6c.js",
-    "index.html": "/index.html",
-    "main.35da2933.css.map": "/static/css/main.35da2933.css.map",
-    "main.deea1e6c.js.map": "/static/js/main.deea1e6c.js.map"
+    "main.css": "/sragvivadali.github.io/static/css/main.35da2933.css",
+    "main.js": "/sragvivadali.github.io/static/js/main.deea1e6c.js",
+    "index.html": "/sragvivadali.github.io/index.html",
+    "main.35da2933.css.map": "/sragvivadali.github.io/static/css/main.35da2933.css.map",
+    "main.deea1e6c.js.map": "/sragvivadali.github.io/static/js/main.deea1e6c.js.map"
   },
   "entrypoints": [
     "static/css/main.35da2933.css",
