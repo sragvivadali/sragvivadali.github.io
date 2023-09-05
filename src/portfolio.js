@@ -11,7 +11,7 @@ const about = {
   resume:
     'https://docs.google.com/document/d/1ADJih2r58tAKmFBAzYE7RDpnxW_NyTgBM5j5p4DZ9VQ/edit?usp=sharing',
   description:
-    "I'm a second-year student at UCLA, majoring in Computer Science and Linguistics expecting to graduate class of 2025. I'm passionate about technology, language, and photography, and I thrive on exploring their intersections. My coursework equips me with analytical and creative problem-solving skills, making me eager to contribute to projects that enhance communication and human interaction through technology and photography.",
+    "Hello! I'm a passionate student, and I'm on track to graduate in the class of 2025. My primary interests lie in the captivating worlds of computer science and natural language processing (NLP). In addition to my technical pursuits, I have a creative side that I express through photography. My ultimate goal is to hone my skills in AI development and NLP to undertake projects that make a significant impact, pushing the boundaries of innovation and problem-solving.",
   social: {
     linkedin: 'https://www.linkedin.com/in/sragvi-vadali-453616183/',
     github: 'https://github.com/sragvivadali',
