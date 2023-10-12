@@ -32,7 +32,7 @@ const projects = [
     description:
       'UCLA Dining Nutrition Tracker is a React-based web application that empowers UCLA students and staff to make healthier dining choices. It utilizes Puppeteer for web scraping, offering real-time nutritional data from campus dining menus. Users can set dietary preferences, track daily intake, and access meal history. Local data storage ensures privacy and offline access. This user-friendly tool enhances the dining experience and promotes better health within the UCLA community.',
     stack: ['React.js', 'Puppeteer', 'Node.js', 'Firebase'],
-    sourceCode: 'https://github.com/sragvivadali/UCLANutritionTrackert',
+    sourceCode: 'https://github.com/sragvivadali/UCLANutritionTracker',
     status: 'incomplete',
   },
   {
