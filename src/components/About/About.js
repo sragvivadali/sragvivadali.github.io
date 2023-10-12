@@ -35,6 +35,7 @@ const About = () => {
                 href={social.github}
                 aria-label='github'
                 className='link link--icon'
+                target='_blank'
               >
                 <GitHubIcon />
               </a>
@@ -45,6 +46,7 @@ const About = () => {
                 href={social.linkedin}
                 aria-label='linkedin'
                 className='link link--icon'
+                target='_blank'
               >
                 <LinkedInIcon />
               </a>
