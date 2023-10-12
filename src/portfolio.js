@@ -20,6 +20,22 @@ const about = {
 
 const projects = [
   {
+    name: 'FoodGPT',
+    description:
+      'FoodGPT is a mobile app that simplifies dining decisions. It consolidates data from various restaurants, providing users with menus, hours, and reviews, and features an AI chatbot for personalized recommendations and inquiries. The chatbot analyzes user preferences, dietary needs, and history to offer tailored suggestions. Users can book reservations, leave reviews, and receive real-time restaurant updates. This app fosters a community of diners and streamlines the dining experience.',
+    stack: ['Python', 'Langchain', 'LlamaIndex', 'Web Scraping'],
+    sourceCode: 'https://github.com/sragvivadali/foodgpt',
+    status: 'incomplete',
+  },
+  {
+    name: 'UCLA Nutrition Aid',
+    description:
+      'UCLA Dining Nutrition Tracker is a React-based web application that empowers UCLA students and staff to make healthier dining choices. It utilizes Puppeteer for web scraping, offering real-time nutritional data from campus dining menus. Users can set dietary preferences, track daily intake, and access meal history. Local data storage ensures privacy and offline access. This user-friendly tool enhances the dining experience and promotes better health within the UCLA community.',
+    stack: ['React.js', 'Puppeteer', 'Node.js', 'Firebase'],
+    sourceCode: 'https://github.com/sragvivadali/foodgpt',
+    status: 'incomplete',
+  },
+  {
     name: 'QuakeAlert - Earthquake Relief Application',
     description:
       'Developed a web application focused on earthquake detection and user safety. Utilized an Earthquake Detection API to notify users within a selected radius of an impending earthquake about the incident, enabling them to take swift safety measures while also facilitating emergency service communication. Enhanced user support by providing information about nearby medical centers within a 5-mile radius.',
@@ -51,26 +67,6 @@ const projects = [
     ],
     sourceCode:
       'https://github.com/sragvivadali/c-project-code/tree/main/Pnetphlix',
-  },
-  {
-    name: 'Open Source Project - Video Downloader',
-    description:
-      'Part of a team of four to develop a Python application for downloading YouTube videos as .mp3 files based on user searches. Utilized Beautiful Soup and Youtube-dl in the backend, while developing the frontend with next.js and bulma.css. Deployed the project with docker.',
-    stack: ['Next.js', 'Docker', 'Python'],
-    sourceCode: 'https://github.com/sragvivadali/videoDownload',
-  },
-  {
-    name: 'Peach Party',
-    description:
-      'Developed a Mario Party-inspired board game where two players navigate through various levels, collecting coins and power-ups while evading enemy CPUs. Leveraged object-oriented programming techniques, including polymorphism and inheritance, to create a diverse set of engaging levels for user enjoyment',
-    stack: [
-      'C++',
-      'Object Oriented Programming',
-      'Polymorphism',
-      'Inheritence',
-    ],
-    sourceCode:
-      'https://github.com/sragvivadali/c-project-code/tree/main/Project%203',
   },
   {
     name: 'Seven Segment Display Project',

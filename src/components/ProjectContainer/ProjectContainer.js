@@ -5,6 +5,14 @@ import './ProjectContainer.css'
 
 const ProjectContainer = ({ project }) => (
   <div className='project'>
+    <div>
+      {project.status && (
+        <div key={uniqid()}>
+          <p className='status__bar'>In Progress</p>
+          <br></br>
+        </div>
+      )}
+    </div>
     <h3>{project.name}</h3>
 
     <p className='project__description'>{project.description}</p>

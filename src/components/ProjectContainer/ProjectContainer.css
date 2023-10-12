@@ -33,3 +33,15 @@
 .project .link--icon {
   margin-left: 0.5em;
 }
+
+.project .status__bar {
+  background-color: var(--clr-primary); /* Set the background color for the status bar */
+  color: white; /* Set the text color */
+  text-align: center;
+  padding: 0.5em; /* Adjust padding as needed */
+  border-radius: 0.5em 0.5em 0 0; /* Round the top corners */
+  font-weight: bold;
+  margin: -2em;
+  margin-bottom: 0.5em;
+
+}
