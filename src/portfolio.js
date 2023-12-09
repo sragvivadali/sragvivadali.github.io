@@ -32,8 +32,22 @@ const projects = [
     description:
       'UCLA Dining Nutrition Tracker is a React-based web application that empowers UCLA students and staff to make healthier dining choices. It utilizes Puppeteer for web scraping, offering real-time nutritional data from campus dining menus. Users can set dietary preferences, track daily intake, and access meal history. Local data storage ensures privacy and offline access. This user-friendly tool enhances the dining experience and promotes better health within the UCLA community.',
     stack: ['React.js', 'Puppeteer', 'Node.js', 'Firebase'],
-    sourceCode: 'https://github.com/sragvivadali/UCLANutritionTracker',
+    sourceCode: 'https://github.com/sragvivadali/UCLANutritionTrackert',
     status: 'incomplete',
+  },
+  {
+    name: 'Reflect Hub',
+    description:
+      'ReflectHub is an application designed to enhance mental health by providing personalized information and resources using GPT technology. Users can share their thoughts and emotions through daily journaling, receive appropriate responses, connect with a supportive community, and engage in meaningful conversations with a GPT-powered chatbot.',
+    stack: [
+      'React.js',
+      'Node.js',
+      'OpenAI',
+      'Langchain',
+      'Firebase',
+      'Client-Server Network Model',
+    ],
+    sourceCode: 'https://github.com/Erosas15/reflect-hub',
   },
   {
     name: 'QuakeAlert - Earthquake Relief Application',
@@ -54,19 +68,6 @@ const projects = [
       "Engineered a dynamic web application that crafts personalized travel itineraries based on user/group preferences. Application began by capturing and storing specific user dimensions. The processed data and a custom dataset was provided to Cohere's NLP training system, enabling the generation of personalized itineraries at the location of their choice. Prompts were provided for either personalized singular itinerary or combined group itinerary for more efficient recommendation. ",
     stack: ['Python', 'Flask', 'Cohere Model Generation', 'Prompt Engineering'],
     sourceCode: 'https://github.com/sragvivadali/IntelliTrip',
-  },
-  {
-    name: 'PnetPhlix',
-    description:
-      'Given a user history, created classes such as User, UserDatabase, Movie, MovieDatabase, Recommender, and TreeMultimap, which form the core structure of the application. Task was to enable the app to analyze user viewing histories, store movie information, and generate personalized movie recommendations based on both user preferences and movie attributes, all in a specific time complexity',
-    stack: [
-      'C++',
-      'Object Oriented Programming',
-      'Time Complexity',
-      'Space Complexity',
-    ],
-    sourceCode:
-      'https://github.com/sragvivadali/c-project-code/tree/main/Pnetphlix',
   },
   {
     name: 'Seven Segment Display Project',
