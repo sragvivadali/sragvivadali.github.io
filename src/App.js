@@ -6,6 +6,7 @@ import Skills from './components/Skills/Skills'
 import Photos from './components/Photos/Photo'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import Contact from './components/Contact/Contact'
+import ChatPopup from './components/ChatPopup/ChatPopup'
 import Footer from './components/Footer/Footer'
 import './App.css'
 
@@ -22,7 +23,7 @@ const App = () => {
         <Contact />
       </main>
 
-      <ScrollToTop />
+      <ChatPopup />
       <Footer />
     </div>
   )
