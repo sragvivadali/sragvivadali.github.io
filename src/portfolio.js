@@ -7,11 +7,11 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Sragvi Vadali',
-  role: 'UCLA Computer Science & Linguistics Student',
+  role: 'USC Masters in Computer Science & UCLA Computer Science & Linguistics Student',
   resume:
     'https://drive.google.com/file/d/1vkUnjNc7VZljxs7bh5lVUJEWznjBXBbf/view?usp=sharing',
   description:
-    "Hello! I'm a passionate student, and I'm on track to graduate in the class of 2025. My primary interests lie in the captivating worlds of computer science and natural language processing (NLP). In addition to my technical pursuits, I have a creative side that I express through photography. My ultimate goal is to hone my skills in AI development and NLP to undertake projects that make a significant impact, pushing the boundaries of innovation and problem-solving.",
+    "Hello! I'm a graduate student pursuing a Masters in Computer Science at USC (Class of 2027) and completing my Bachelors in Computer Science & Linguistics at UCLA (Class of 2025). I'm currently working as an Engineer on the USC Game 'All Good Things' project, developing real-time computer vision pipelines. Previously, I've worked as a Research Assistant at UCLA NESL Lab fine-tuning LLMs, and as a Fullstack Intern at Hyperlink and Backend Developer Intern at Magic8. My interests span AI/ML, NLP, distributed systems, and software engineering. Beyond tech, I enjoy photography and creating impactful projects that push the boundaries of innovation.",
   social: {
     linkedin: 'https://www.linkedin.com/in/sragvi-vadali-453616183/',
     github: 'https://github.com/sragvivadali',
@@ -20,20 +20,33 @@ const about = {
 
 const projects = [
   {
-    name: 'FoodGPT',
+    name: 'USC Game "All Good Things" - Engineer',
     description:
-      'FoodGPT is a mobile app that simplifies dining decisions. It consolidates data from various restaurants, providing users with menus, hours, and reviews, and features an AI chatbot for personalized recommendations and inquiries. The chatbot analyzes user preferences, dietary needs, and history to offer tailored suggestions. Users can book reservations, leave reviews, and receive real-time restaurant updates. This app fosters a community of diners and streamlines the dining experience.',
-    stack: ['Python', 'Langchain', 'LlamaIndex', 'Web Scraping'],
-    sourceCode: 'https://github.com/sragvivadali/foodgpt',
-    status: 'incomplete',
+      'Built a real-time pipeline integrating TouchDesigner and Unity for player movement tracking using computer vision, supporting interactive story progression for a team-based Master\'s thesis game. Led development of pose tracking algorithms for 20+ unique ballet movements, enabling challenging multilevel gameplay that adapts to user actions in real time. Collaborated with a cross-functional team of 5; currently preparing for commercial Steam release (target: May 2025).',
+    stack: ['TouchDesigner', 'Unity', 'Computer Vision', 'Python', 'Real-time Systems'],
+    sourceCode: '',
   },
   {
-    name: 'UCLA Nutrition Aid',
+    name: 'UCLA NESL Lab - Research Assistant',
     description:
-      'UCLA Dining Nutrition Tracker is a React-based web application that empowers UCLA students and staff to make healthier dining choices. It utilizes Puppeteer for web scraping, offering real-time nutritional data from campus dining menus. Users can set dietary preferences, track daily intake, and access meal history. Local data storage ensures privacy and offline access. This user-friendly tool enhances the dining experience and promotes better health within the UCLA community.',
-    stack: ['React.js', 'Puppeteer', 'Node.js', 'Firebase'],
-    sourceCode: 'https://github.com/sragvivadali/UCLANutritionTrackert',
-    status: 'incomplete',
+      'Fine-tuned Llama 2 LLM on 42GB of time series data with A6000 GPU, exploring transfer learning for prediction tasks. Analyzed and documented 75% accuracy for predicting up to 10 numbers and 30% accuracy for longer sequences, contributing to manuscript drafting and team presentations. Collaborated directly with PhD candidates for experiment design, model evaluation, and technical writing.',
+    stack: ['PyTorch', 'Llama 2', 'NLP', 'Deep Learning', 'Transfer Learning', 'GPU Computing'],
+    sourceCode: '',
+  },
+ 
+  {
+    name: 'Dynamic VectorDB (Apache Flink + Kafka)',
+    description:
+      'Developed and load-tested real-time dynamic vectorDB system combining Apache Kafka, Flink, Pinecone, OpenAI GPT-3.5 for financial data processing. Performed comprehensive stress testing with 10,000+ simultaneous data inputs to evaluate system performance under heavy load conditions. Implemented performance monitoring and achieved sub-100ms latency with 3x faster query times compared to static database solutions. Documented system benchmarks, load testing results, and scalability optimization strategies.',
+    stack: ['Apache Kafka', 'Apache Flink', 'Pinecone', 'OpenAI GPT-3.5', 'Python'],
+    sourceCode: '',
+  },
+  {
+    name: 'Cataract Detection - AI&Eye',
+    description:
+      'Designed and trained a PyTorch CNN to classify cataract severity (none, mild/moderate, severe). Focused on clinical accuracy and explainability. Deployed in Chennai for 1,000+ patients, providing accessible eye health screening using deep learning techniques.',
+    stack: ['PyTorch', 'CNN', 'Deep Learning', 'Medical AI', 'Python'],
+    sourceCode: '',
   },
   {
     name: 'Reflect Hub',
@@ -69,17 +82,6 @@ const projects = [
     stack: ['Python', 'Flask', 'Cohere Model Generation', 'Prompt Engineering'],
     sourceCode: 'https://github.com/sragvivadali/IntelliTrip',
   },
-  {
-    name: 'Seven Segment Display Project',
-    description:
-      'In a collaborative effort with a four-member team, designed a message display system utilizing Two Seven Segment Displays (SSDs), conditional logic, universal gates, and strict LED state control across four distinct phases. The chosen message, "U SIT ON A THRONE OF LIES," derived from the iconic movie, "The Elf," required careful segmentation. This entailed creating precise truth tables, applying Boolean algebra for efficient equations, and validating the results through Multisim simulations. ',
-    stack: [
-      'Electronics',
-      'Seven Segment Displays',
-      'Multisim',
-      'Boolean Algebra',
-    ],
-  },
 ]
 
 const images = {
@@ -107,20 +109,31 @@ const images = {
 }
 
 const skills = [
-  'HTML',
-  'CSS',
+  'Python',
+  'Java',
+  'C++',
   'JavaScript',
   'TypeScript',
+  'Rust',
   'React.js',
   'Node.js',
-  'Git',
-  'Python',
-  'C++',
-  'Java',
-  'Assembly',
-  'Tensorflow',
   'Flask',
+  'PyTorch',
   'Docker',
+  'Kubernetes',
+  'Apache Kafka',
+  'Apache Flink',
+  'GraphQL',
+  'AWS',
+  'Azure',
+  'PostgreSQL',
+  'Linux',
+  'REST APIs',
+  'Microservices Architecture',
+  'Tensorflow',
+  'Git',
+  'HTML',
+  'CSS',
 ]
 
 const contact = {
