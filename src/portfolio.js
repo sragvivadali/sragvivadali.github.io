@@ -22,24 +22,51 @@ const projects = [
   {
     name: 'USC Game "All Good Things" - Engineer',
     description:
-      'Built a real-time pipeline integrating TouchDesigner and Unity for player movement tracking using computer vision, supporting interactive story progression for a team-based Master\'s thesis game. Led development of pose tracking algorithms for 20+ unique ballet movements, enabling challenging multilevel gameplay that adapts to user actions in real time. Collaborated with a cross-functional team of 5; currently preparing for commercial Steam release (target: May 2025).',
-    stack: ['TouchDesigner', 'Unity', 'Computer Vision', 'Python', 'Real-time Systems'],
-    sourceCode: '',
+      "Built a real-time pipeline integrating TouchDesigner and Unity for player movement tracking using computer vision, supporting interactive story progression for a team-based Master's thesis game. Led development of pose tracking algorithms for 20+ unique ballet movements, enabling challenging multilevel gameplay that adapts to user actions in real time. Collaborated with a cross-functional team of 5; currently preparing for commercial Steam release (target: May 2025).",
+    stack: [
+      'TouchDesigner',
+      'Unity',
+      'Computer Vision',
+      'Python',
+      'Real-time Systems',
+    ],
+    sourceCode:
+      'https://www.linkedin.com/company/all-good-things-ttt/posts/?feedView=all',
+  },
+  {
+    name: 'Recipe Web App',
+    description:
+      'Recipe WebApp is a scalable, modern web application designed for recipe sharing and social interaction. Developed as part of the Fork platform in the USC Genesis Program, the project leverages robust event-driven architecture and a modern JavaScript stack to support thousands of concurrent users. The system is engineered for reliability, scalability, and real-time responsiveness.',
+    stack: ['React', 'PostgreSQL', 'Apache Kafka', 'Java'],
+    sourceCode: 'https://github.com/sragvivadali/recipe-webapp',
   },
   {
     name: 'UCLA NESL Lab - Research Assistant',
     description:
       'Fine-tuned Llama 2 LLM on 42GB of time series data with A6000 GPU, exploring transfer learning for prediction tasks. Analyzed and documented 75% accuracy for predicting up to 10 numbers and 30% accuracy for longer sequences, contributing to manuscript drafting and team presentations. Collaborated directly with PhD candidates for experiment design, model evaluation, and technical writing.',
-    stack: ['PyTorch', 'Llama 2', 'NLP', 'Deep Learning', 'Transfer Learning', 'GPU Computing'],
-    sourceCode: '',
+    stack: [
+      'PyTorch',
+      'Llama 2',
+      'NLP',
+      'Deep Learning',
+      'Transfer Learning',
+      'GPU Computing',
+    ],
+    sourceCode: 'https://github.com/sragvivadali/peft_prompt_tuning',
   },
- 
+
   {
     name: 'Dynamic VectorDB (Apache Flink + Kafka)',
     description:
       'Developed and load-tested real-time dynamic vectorDB system combining Apache Kafka, Flink, Pinecone, OpenAI GPT-3.5 for financial data processing. Performed comprehensive stress testing with 10,000+ simultaneous data inputs to evaluate system performance under heavy load conditions. Implemented performance monitoring and achieved sub-100ms latency with 3x faster query times compared to static database solutions. Documented system benchmarks, load testing results, and scalability optimization strategies.',
-    stack: ['Apache Kafka', 'Apache Flink', 'Pinecone', 'OpenAI GPT-3.5', 'Python'],
-    sourceCode: '',
+    stack: [
+      'Apache Kafka',
+      'Apache Flink',
+      'Pinecone',
+      'OpenAI GPT-3.5',
+      'Python',
+    ],
+    sourceCode: 'https://github.com/sragvivadali/rag_benchmarking_flink',
   },
   {
     name: 'Cataract Detection - AI&Eye',
@@ -60,7 +87,7 @@ const projects = [
       'Firebase',
       'Client-Server Network Model',
     ],
-    sourceCode: 'https://github.com/Erosas15/reflect-hub',
+    sourceCode: 'https://github.com/sragvivadali/reflect-hub',
   },
   {
     name: 'QuakeAlert - Earthquake Relief Application',
@@ -78,8 +105,14 @@ const projects = [
   {
     name: 'IntelliTrip - A Smart Itinerary Generator',
     description:
-      "Engineered a dynamic web application that crafts personalized travel itineraries based on user/group preferences. Application began by capturing and storing specific user dimensions. The processed data and a custom dataset was provided to Cohere's NLP training system, enabling the generation of personalized itineraries at the location of their choice. Prompts were provided for either personalized singular itinerary or combined group itinerary for more efficient recommendation. ",
-    stack: ['Python', 'Flask', 'Cohere Model Generation', 'Prompt Engineering'],
+      "Engineered a dynamic web application that crafts personalized travel itineraries based on user/group preferences. Application began by capturing and storing specific user dimensions. The processed data and a custom dataset was provided to Cohere's NLP training system, enabling the generation of personalized itineraries at the location of their choice. Prompts were provided for either personalized singular itinerary or combined group itinerary for more efficient recommendation. Hosted on Salesforce's Heroku, utilizing a worker dyno and a web dyno for a postgres database.",
+    stack: [
+      'Python',
+      'Flask',
+      'Cohere Model Generation',
+      'Prompt Engineering',
+      'Heroku',
+    ],
     sourceCode: 'https://github.com/sragvivadali/IntelliTrip',
   },
 ]
